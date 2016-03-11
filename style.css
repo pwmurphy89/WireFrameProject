@@ -1,0 +1,31 @@
+
+
+img {
+	width: 100%;
+}
+
+.list-inline
+{
+	margin-top: 10px;
+}
+
+
+@media all and (max-width: 767px) {
+.btn-group {
+	display: block;
+}
+.top-row {
+	display: none;
+}
+}
+
+@media all and (min-width: 768px) {
+.btn-group {
+	display: none;
+}
+
+.top-row {
+	display: block;
+}
+}
+
